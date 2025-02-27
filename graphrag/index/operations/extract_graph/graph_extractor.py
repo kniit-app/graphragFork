@@ -26,7 +26,7 @@ from graphrag.prompts.index.extract_graph import (
 DEFAULT_TUPLE_DELIMITER = "<|>"
 DEFAULT_RECORD_DELIMITER = "##"
 DEFAULT_COMPLETION_DELIMITER = "<|COMPLETE|>"
-DEFAULT_ENTITY_TYPES = ["organization", "person", "geo", "event"]
+DEFAULT_ENTITY_TYPES = ["Component", "Structure", "Table", "Data Type", "Allowed Value", "BDEW Value", "Business Table"]
 
 log = logging.getLogger(__name__)
 

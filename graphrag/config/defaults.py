@@ -85,7 +85,7 @@ COMMUNITY_REPORT_MAX_INPUT_LENGTH = 8000
 COMMUNITY_REPORT_MODEL_ID = DEFAULT_CHAT_MODEL_ID
 
 # Graph extraction via LLM
-EXTRACT_GRAPH_ENTITY_TYPES = ["organization", "person", "geo", "event"]
+EXTRACT_GRAPH_ENTITY_TYPES = ["Component", "Structure", "Table", "Data Type", "Allowed Value", "BDEW Value", "Business Table"]
 EXTRACT_GRAPH_MAX_GLEANINGS = 1
 EXTRACT_GRAPH_MODEL_ID = DEFAULT_CHAT_MODEL_ID
 

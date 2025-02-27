@@ -26,7 +26,7 @@ from graphrag.index.run.derive_from_rows import derive_from_rows
 log = logging.getLogger(__name__)
 
 
-DEFAULT_ENTITY_TYPES = ["organization", "person", "geo", "event"]
+DEFAULT_ENTITY_TYPES = ["Component", "Structure", "Table", "Data Type", "Allowed Value", "BDEW Value", "Business Table"]
 
 
 async def extract_covariates(
